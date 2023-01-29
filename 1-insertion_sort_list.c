@@ -1,6 +1,11 @@
 #include "sort.h"
 #include <stdlib.h>
 
+/**
+ * insertion_sort_list - implementation of insertion sort method
+ * @list: doubly linked list to sorted
+ */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *c, *p, *nextnode;
